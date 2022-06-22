@@ -7,6 +7,7 @@ int main(){
     string nama[100];
     int long nim[100];
     objectFinalis.input(nama, nim);
+    objectFinalis.proses(nama, nim);
     objectFinalis.output(nama,nim);
     return 0;
 }
